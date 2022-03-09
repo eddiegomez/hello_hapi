@@ -18,8 +18,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing...'
-                sh 'npm test'
+                echo 'Testing... with error'
+                sh 'npm tesst'
             }
         }
     }
