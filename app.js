@@ -6,7 +6,7 @@ const Server = new Hapi.Server({
     host: 'localhost',
     port: 3000
 });
-const Hello  = require('./lib/helslo');
+const Hello  = require('./lib/hello');
 
 Server.route({
     method: 'GET',
